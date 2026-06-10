@@ -272,7 +272,8 @@ export default function MapView({ onSelectCountry, onSelectRegion, onHoverCountr
       'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'],
       'text-anchor': 'center',
       'text-max-width': 10,
-      'text-allow-overlap': false,
+      'text-allow-overlap': true,
+      'text-offset': [0, 1.2],
       'text-padding': 4,
     },
     paint: {
@@ -322,19 +323,19 @@ export default function MapView({ onSelectCountry, onSelectRegion, onHoverCountr
         <NavigationControl position="bottom-right" showCompass={false} />
 
         {/* Country base fills + always-on borders */}
-        <Source id="countries" type="geojson" data="/countries.geojson" generateId>
+        <Source id="countries" type="geojson" data="/countries.geojson?v=5" generateId>
           <Layer {...countriesFill} />
           <Layer {...countriesLine} />
           <Layer {...countriesGlow} />
         </Source>
 
         {/* Single point labels for countries */}
-        <Source id="country-labels" type="geojson" data="/country_labels.geojson">
+        <Source id="country-labels" type="geojson" data="/country_labels.geojson?v=5">
           <Layer {...countriesLabel} />
         </Source>
 
         {/* 7 merged region polygons */}
-        <Source id="regions" type="geojson" data="/regions.geojson" generateId>
+        <Source id="regions" type="geojson" data="/regions.geojson?v=5" generateId>
           <Layer {...regionsFill} />
           <Layer {...regionsLine} />
           <Layer {...regionsBorderInner} />
@@ -343,7 +344,7 @@ export default function MapView({ onSelectCountry, onSelectRegion, onHoverCountr
         </Source>
 
         {/* Single point labels for regions */}
-        <Source id="region-labels" type="geojson" data="/region_labels.geojson">
+        <Source id="region-labels" type="geojson" data="/region_labels.geojson?v=5">
           <Layer {...regionsLabel} />
           <Layer {...capitalLabel} />
         </Source>

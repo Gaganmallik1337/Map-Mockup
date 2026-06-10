@@ -50,6 +50,8 @@ def kmeans(points, k, max_iters=50):
         clusters.append(g[mid:])
         clusters[largest_idx] = g[:mid]
         
+    # Sort clusters North to South so order is deterministic
+    clusters.sort(key=lambda c: sum(p['centroid'][1] for p in c) / len(c) if c else 0, reverse=True)
     return clusters
 
 
@@ -147,7 +149,7 @@ CAPITAL_IDX = {k:0 for k in list(NAMED_REGIONS.keys())}
 CAPITAL_IDX['IND'] = 5  # Uttar Pradesh (Delhi)
 
 print("Loading raw GeoJSON...", flush=True)
-with open('public/regions_raw.geojson', encoding='utf-8') as f:
+with open('public/regions_raw_fixed.geojson', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 by_country = defaultdict(list)
@@ -187,19 +189,16 @@ for iso, feats in by_country.items():
     random.seed(42) # Consistent random seed
     groups = kmeans(feats, 7)
 
-    if iso in NAMED_REGIONS:
-        named = NAMED_REGIONS[iso]
-    else:
-        named = []
-        for g in groups[:7]:
-            if not g:
-                named.append("Region")
-            else:
-                largest = max(g, key=lambda f: f['area'])
-                n = str(largest['name']).strip()
-                if not n or n.lower() == 'none' or n.lower() == 'null':
-                    n = "Region"
-                named.append(n)
+    named = []
+    for g in groups[:7]:
+        if not g:
+            named.append("Region")
+        else:
+            largest = max(g, key=lambda f: f['area'])
+            n = str(largest['name']).strip()
+            if not n or n.lower() == 'none' or n.lower() == 'null':
+                n = "Region"
+            named.append(n)
     resources = RESOURCES.get(iso, ['None']*7)
     capital_idx = CAPITAL_IDX.get(iso, 0)
 
