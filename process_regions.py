@@ -4,10 +4,54 @@ Improved region processor:
 - Bakes 7 distinct color shades into each feature's `region_color` property
 - Adds `centroid_lon/lat` for capital symbol placement
 """
-import json, math
+import json, math, random
 from collections import defaultdict
 from shapely.geometry import shape, mapping
 from shapely.ops import unary_union
+
+def kmeans(points, k, max_iters=50):
+    if len(points) <= k:
+        return [[p] for p in points]
+    # points: list of dicts with 'centroid': (x, y)
+    centroids = random.sample([p['centroid'] for p in points], k)
+    
+    for _ in range(max_iters):
+        clusters = [[] for _ in range(k)]
+        for p in points:
+            px, py = p['centroid']
+            dists = [(px - cx)**2 + (py - cy)**2 for cx, cy in centroids]
+            best_idx = dists.index(min(dists))
+            clusters[best_idx].append(p)
+            
+        # remove empty clusters
+        clusters = [c for c in clusters if c]
+        if len(clusters) < k:
+            # Handle empty clusters by re-initializing from the largest cluster
+            largest = max(clusters, key=len)
+            if len(largest) > 1:
+                clusters.append([largest.pop()])
+                
+        new_centroids = []
+        for c in clusters:
+            cx = sum(p['centroid'][0] for p in c) / len(c)
+            cy = sum(p['centroid'][1] for p in c) / len(c)
+            new_centroids.append((cx, cy))
+            
+        # Stop if converged
+        if new_centroids == centroids:
+            break
+        centroids = new_centroids
+        
+    # Pad to exactly 7 groups if needed
+    while len(clusters) < k:
+        largest_idx = max(range(len(clusters)), key=lambda i: len(clusters[i]))
+        g = clusters[largest_idx]
+        mid = max(1, len(g) // 2)
+        clusters.append(g[mid:])
+        clusters[largest_idx] = g[:mid]
+        
+    return clusters
+
 
 def hex_to_rgb(h):
     h = h.lstrip('#')
@@ -109,7 +153,14 @@ with open('public/regions_raw.geojson', encoding='utf-8') as f:
 by_country = defaultdict(list)
 for feat in data['features']:
     props = feat.get('properties', {})
+    name = str(props.get('name') or props.get('name_en') or props.get('name_local') or '').lower()
     iso = props.get('adm0_a3') or props.get('adm0_iso') or ''
+    
+    # Official Indian Boundaries check
+    merge_keywords = ['kashmir', 'aksai chin', 'siachen']
+    if any(k in name for k in merge_keywords) or iso == 'KAS':
+        iso = 'IND'
+        
     geom = feat.get('geometry')
     if iso and geom:
         try:
@@ -120,6 +171,7 @@ for feat in data['features']:
                 by_country[iso].append({
                     'shape': shp, 
                     'lat': shp.centroid.y,
+                    'centroid': (shp.centroid.x, shp.centroid.y),
                     'area': shp.area,
                     'name': props.get('name') or props.get('name_en') or props.get('name_local') or 'Region'
                 })
@@ -130,25 +182,10 @@ print(f"Loaded {len(by_country)} countries", flush=True)
 output_features = []
 
 for iso, feats in by_country.items():
-    feats_sorted = sorted(feats, key=lambda f: f['lat'], reverse=True)
-    n = len(feats_sorted)
     base_color = get_base_color(iso)
-
-    groups = []
-    chunk_size = n / 7
-    for i in range(7):
-        start = int(round(i * chunk_size))
-        end = int(round((i + 1) * chunk_size))
-        chunk = feats_sorted[start:min(max(end, start+1), n)]
-        if chunk:
-            groups.append(chunk)
-
-    while len(groups) < 7:
-        largest_idx = max(range(len(groups)), key=lambda i: len(groups[i]))
-        g = groups[largest_idx]
-        mid = max(1, len(g) // 2)
-        groups[largest_idx] = g[:mid]
-        groups.insert(largest_idx + 1, g[mid:] if len(g) > mid else [g[-1]])
+    # Use K-Means geographic clustering instead of simple lat-sort
+    random.seed(42) # Consistent random seed
+    groups = kmeans(feats, 7)
 
     if iso in NAMED_REGIONS:
         named = NAMED_REGIONS[iso]
@@ -212,6 +249,21 @@ print(f"Writing {len(output_features)} features...", flush=True)
 with open('public/regions.geojson', 'w', encoding='utf-8') as f:
     json.dump({'type':'FeatureCollection','features':output_features}, f, separators=(',',':'))
 
+# Generate region_labels.geojson
+label_features = []
+for feat in output_features:
+    props = feat['properties']
+    lon, lat = props.get('centroid_lon'), props.get('centroid_lat')
+    if lon is not None and lat is not None:
+        label_features.append({
+            'type': 'Feature',
+            'geometry': {'type': 'Point', 'coordinates': [lon, lat]},
+            'properties': props
+        })
+with open('public/region_labels.geojson', 'w', encoding='utf-8') as f:
+    json.dump({'type': 'FeatureCollection', 'features': label_features}, f, separators=(',',':'))
+
+print("Done!")
 # Dump the generated names mapping for the frontend to use
 print("Writing src/data/dynamic_region_names.json...")
 dynamic_names = {}

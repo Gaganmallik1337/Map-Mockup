@@ -1,5 +1,5 @@
-import { useCallback, useRef, useState } from 'react';
-import Map, { Source, Layer } from 'react-map-gl/maplibre';
+import { useCallback, useRef, useState, useEffect } from 'react';
+import Map, { Source, Layer, NavigationControl } from 'react-map-gl/maplibre';
 import type { MapRef, MapLayerMouseEvent } from 'react-map-gl/maplibre';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import { getCountryData } from '../data/countryData';
@@ -98,6 +98,31 @@ export default function MapView({ onSelectCountry, onSelectRegion, onHoverCountr
     mapRef.current?.getMap()?.flyTo({ center: e.lngLat, zoom: zoom + 1.5, duration: 600 });
   }, [zoom]);
 
+  // Enable smooth two-finger panning on trackpads
+  useEffect(() => {
+    const map = mapRef.current?.getMap();
+    if (!map) return;
+
+    const canvas = map.getCanvasContainer();
+    const handleWheel = (e: WheelEvent) => {
+      // If holding ctrl (which trackpads simulate during pinch-to-zoom), let MapLibre zoom.
+      // Otherwise, intercept the wheel event and pan the map instead.
+      if (!e.ctrlKey && !e.metaKey) {
+        e.stopPropagation();
+        e.preventDefault();
+        // Adjust the multiplier for panning speed (1.0 is 1:1 with trackpad)
+        map.panBy([e.deltaX, e.deltaY], { animate: false });
+      }
+    };
+
+    // Use capture phase to intercept before MapLibre's own wheel handler
+    canvas.addEventListener('wheel', handleWheel, { capture: true, passive: false });
+    
+    return () => {
+      canvas.removeEventListener('wheel', handleWheel, { capture: true });
+    };
+  }, []);
+
   const handleZoom = useCallback(() => {
     setZoom(mapRef.current?.getMap()?.getZoom() ?? 2);
   }, []);
@@ -155,7 +180,7 @@ export default function MapView({ onSelectCountry, onSelectRegion, onHoverCountr
     },
     paint: {
       'text-color': showRegions
-        ? ['case', ['==', ['get', 'ISO3166-1-Alpha-3'], selIso], 'rgba(255,255,255,0)', '#e2e8f0']
+        ? ['case', ['==', ['get', 'iso'], selIso], 'rgba(255,255,255,0)', '#e2e8f0']
         : '#e2e8f0',
       'text-halo-color': 'rgba(0,0,0,0.7)',
       'text-halo-width': 1.5
@@ -294,11 +319,17 @@ export default function MapView({ onSelectCountry, onSelectRegion, onHoverCountr
         doubleClickZoom={false}
         attributionControl={false}
       >
-        {/* Country base fills + always-on borders + name labels */}
+        <NavigationControl position="bottom-right" showCompass={false} />
+
+        {/* Country base fills + always-on borders */}
         <Source id="countries" type="geojson" data="/countries.geojson" generateId>
           <Layer {...countriesFill} />
           <Layer {...countriesLine} />
           <Layer {...countriesGlow} />
+        </Source>
+
+        {/* Single point labels for countries */}
+        <Source id="country-labels" type="geojson" data="/country_labels.geojson">
           <Layer {...countriesLabel} />
         </Source>
 
@@ -309,6 +340,10 @@ export default function MapView({ onSelectCountry, onSelectRegion, onHoverCountr
           <Layer {...regionsBorderInner} />
           <Layer {...regionsHover} />
           <Layer {...regionsSelected} />
+        </Source>
+
+        {/* Single point labels for regions */}
+        <Source id="region-labels" type="geojson" data="/region_labels.geojson">
           <Layer {...regionsLabel} />
           <Layer {...capitalLabel} />
         </Source>
