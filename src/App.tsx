@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import MapView from './components/MapView';
 import CountryPanel from './components/CountryPanel';
 import RegionPanel from './components/RegionPanel';

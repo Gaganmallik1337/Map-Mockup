@@ -1,4 +1,4 @@
-import React from 'react';
+// Removed unused React import
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Star } from 'lucide-react';
 import type { CountryData, Region } from '../data/countryData';
