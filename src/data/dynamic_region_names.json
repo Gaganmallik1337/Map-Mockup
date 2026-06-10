@@ -1,0 +1,2027 @@
+{
+  "URY": [
+    "Salto",
+    "Tacuaremb\u00f3",
+    "Cerro Largo",
+    "Treinta y Tres",
+    "Rocha",
+    "Colonia",
+    "Maldonado"
+  ],
+  "MYS": [
+    "Kedah",
+    "Sabah",
+    "Kelantan",
+    "Pahang",
+    "Selangor",
+    "Sarawak",
+    "Johor"
+  ],
+  "CHL": [
+    "Tarapac\u00e1",
+    "Antofagasta",
+    "Valpara\u00edso",
+    "Maule",
+    "B\u00edo-B\u00edo",
+    "Los Lagos",
+    "Magallanes y Ant\u00e1rtica Chilena"
+  ],
+  "BOL": [
+    "Pando",
+    "El Beni",
+    "Cochabamba",
+    "Santa Cruz",
+    "Oruro",
+    "Potos\u00ed",
+    "Tarija"
+  ],
+  "PER": [
+    "Loreto",
+    "San Mart\u00edn",
+    "Ucayali",
+    "Madre de Dios",
+    "Cusco",
+    "Ayacucho",
+    "Puno"
+  ],
+  "ESB": [
+    "Dhekelia",
+    "Dhekelia",
+    "Dhekelia",
+    "Dhekelia",
+    "Dhekelia",
+    "Dhekelia",
+    "Dhekelia"
+  ],
+  "CYP": [
+    "Nicosia",
+    "Famagusta",
+    "Famagusta",
+    "Paphos",
+    "Larnaca",
+    "Limassol",
+    "Limassol"
+  ],
+  "ISR": [
+    "HaZafon",
+    "Haifa",
+    "Tel Aviv",
+    "HaMerkaz",
+    "HaMerkaz",
+    "Jerusalem",
+    "HaDarom"
+  ],
+  "PSX": [
+    "West Bank",
+    "West Bank",
+    "West Bank",
+    "Gaza Strip",
+    "Gaza Strip",
+    "Gaza Strip",
+    "Gaza Strip"
+  ],
+  "LBN": [
+    "North Lebanon",
+    "Beqaa",
+    "Mount Lebanon",
+    "Beirut",
+    "Beirut",
+    "South Lebanon",
+    "An Nabatiyah"
+  ],
+  "ETH": [
+    "Afar",
+    "Amhara",
+    "Benshangul-Gumaz",
+    "Harari People",
+    "Gambela Peoples",
+    "Oromiya",
+    "Somali"
+  ],
+  "SDS": [
+    "Upper Nile",
+    "Northern Bahr el Ghazal",
+    "Western Bahr el Ghazal",
+    "Jonglei",
+    "Lakes",
+    "Western Equatoria",
+    "Central Equatoria"
+  ],
+  "SOM": [
+    "Bari",
+    "Mudug",
+    "Hiiraan",
+    "Shabeellaha Dhexe",
+    "Gedo",
+    "Shabeellaha Hoose",
+    "Jubbada Hoose"
+  ],
+  "KEN": [
+    "North-Eastern",
+    "Eastern",
+    "Rift Valley",
+    "Nyanza",
+    "Central",
+    "Nairobi",
+    "Coast"
+  ],
+  "MWI": [
+    "Nkhata Bay",
+    "Mzimba",
+    "Salima",
+    "Mangochi",
+    "Machinga",
+    "Blantyre",
+    "Chikwawa"
+  ],
+  "TZA": [
+    "Kagera",
+    "Manyara",
+    "Tabora",
+    "Singida",
+    "Katavi",
+    "Morogoro",
+    "Lindi"
+  ],
+  "SYR": [
+    "Hasaka (Al Haksa)",
+    "Ar Raqqah",
+    "Hamah",
+    "Homs (Hims)",
+    "Rif Dimashq",
+    "Quneitra",
+    "As Suwayda'"
+  ],
+  "SOL": [
+    "Somaliland",
+    "Somaliland",
+    "Somaliland",
+    "Somaliland",
+    "Somaliland",
+    "Somaliland",
+    "Somaliland"
+  ],
+  "SUR": [
+    "Paramaribo",
+    "Commewijne",
+    "Saramacca",
+    "Marowijne",
+    "Nickerie",
+    "Brokopondo",
+    "Sipaliwini"
+  ],
+  "GUY": [
+    "Barima-Waini",
+    "Cuyuni-Mazaruni",
+    "East Berbice-Corentyne",
+    "Pomeroon-Supenaam",
+    "Upper Takutu-Upper Essequibo",
+    "Mahaica-Berbice",
+    "Upper Demerara-Berbice"
+  ],
+  "PRK": [
+    "Hamgy\u014fng-bukto",
+    "Ryanggang",
+    "Hamgy\u014fng-namdo",
+    "P'y\u014fngan-bukto",
+    "P'y\u014fngan-namdo",
+    "Kangw\u014fn-do",
+    "Hwanghae-bukto"
+  ],
+  "MAR": [
+    "Tanger - T\u00e9touan",
+    "Taza - Al Hoceima - Taounate",
+    "Oriental",
+    "Chaouia - Ouardigha",
+    "Mekn\u00e8s - Tafilalet",
+    "Guelmim - Es-Semara",
+    "Oued el Dahab"
+  ],
+  "SAH": [
+    "Western Sahara",
+    "Western Sahara",
+    "Western Sahara",
+    "Western Sahara",
+    "Western Sahara",
+    "Western Sahara",
+    "Western Sahara"
+  ],
+  "CRI": [
+    "Alajuela",
+    "Guanacaste",
+    "Heredia",
+    "Lim\u00f3n",
+    "Cartago",
+    "San Jos\u00e9",
+    "Puntarenas"
+  ],
+  "NIC": [
+    "Atl\u00e1ntico Norte",
+    "Nueva Segovia",
+    "Matagalpa",
+    "Atl\u00e1ntico Sur",
+    "Chontales",
+    "Granada",
+    "Rio San Juan"
+  ],
+  "COG": [
+    "Likouala",
+    "Cuvette-Ouest",
+    "Cuvette",
+    "Niari",
+    "Pool",
+    "Bouenza",
+    "Kouilou"
+  ],
+  "COD": [
+    "Orientale",
+    "Nord-Kivu",
+    "Maniema",
+    "Bandundu",
+    "Kasa\u00ef-Oriental",
+    "Bas-Congo",
+    "Katanga"
+  ],
+  "BTN": [
+    "Gasa",
+    "Thimphu",
+    "Wangdi Phodrang",
+    "Tashigang",
+    "Shemgang",
+    "Samchi",
+    "Geylegphug"
+  ],
+  "BLR": [
+    "Vitebsk",
+    "City of Minsk",
+    "Minsk",
+    "Grodno",
+    "Mogilev",
+    "Brest",
+    "Gomel"
+  ],
+  "NAM": [
+    "Caprivi",
+    "Kavango",
+    "Oshikoto",
+    "Kunene",
+    "Otjozondjupa",
+    "Erongo",
+    "Karas"
+  ],
+  "MAF": [
+    "St. Martin",
+    "St. Martin",
+    "St. Martin",
+    "St. Martin",
+    "St. Martin",
+    "St. Martin",
+    "St. Martin"
+  ],
+  "SXM": [
+    "Sint Maarten",
+    "Sint Maarten",
+    "Sint Maarten",
+    "Sint Maarten",
+    "Sint Maarten",
+    "Sint Maarten",
+    "Sint Maarten"
+  ],
+  "ARE": [
+    "Umm Al Qaywayn",
+    "Ras Al Khaymah",
+    "Fujayrah",
+    "Sharjah",
+    "Neutral Zone",
+    "Dubay",
+    "Abu Dhabi"
+  ],
+  "OMN": [
+    "Al Buraymi",
+    "Al Batnah North",
+    "Muscat",
+    "Al Dhahira",
+    "Ad Dakhliyah",
+    "Ash Sharqiyah South",
+    "Dhofar"
+  ],
+  "UZB": [
+    "Karakalpakstan",
+    "Khorezm",
+    "Tashkent",
+    "Ferghana",
+    "Jizzakh",
+    "Bukhoro",
+    "Kashkadarya"
+  ],
+  "KAZ": [
+    "Pavlodar",
+    "Qostanay",
+    "East Kazakhstan",
+    "Qaraghandy",
+    "Qyzylorda",
+    "Almaty",
+    "South Kazakhstan"
+  ],
+  "TJK": [
+    "Leninabad",
+    "Tadzhikistan Territories",
+    "Tadzhikistan Territories",
+    "Dushanbe",
+    "Gorno-Badakhshan",
+    "Khatlon",
+    "Khatlon"
+  ],
+  "LTU": [
+    "Tel\u0161iai",
+    "\u0160iauliai",
+    "Klaipedos",
+    "Utenos",
+    "Kauno",
+    "Vilniaus",
+    "Alytaus"
+  ],
+  "MNG": [
+    "H\u00f6vsg\u00f6l",
+    "Bulgan",
+    "Dornod",
+    "Hentiy",
+    "S\u00fchbaatar",
+    "Govi-Altay",
+    "\u00d6mn\u00f6govi"
+  ],
+  "CZE": [
+    "\u00dasteck\u00fd",
+    "Kr\u00e1lov\u00e9hradeck\u00fd",
+    "St\u0159edo\u010desk\u00fd",
+    "Moravskoslezsk\u00fd",
+    "Plze\u0148sk\u00fd",
+    "Vyso\u010dina",
+    "Jiho\u010desk\u00fd"
+  ],
+  "EST": [
+    "Harju",
+    "Ida-Viru",
+    "Rapla",
+    "P\u00e4rnu",
+    "Tartu",
+    "Viljandi",
+    "V\u00f5ru"
+  ],
+  "LVA": [
+    "Aluksne",
+    "Ventspils",
+    "Kuldigas",
+    "Madona",
+    "Saldus",
+    "Rezeknes",
+    "Daugavpils"
+  ],
+  "NOR": [
+    "Svalbard",
+    "Nordland",
+    "Hedmark",
+    "Sogn og Fjordane",
+    "Telemark",
+    "Rogaland",
+    "Aust-Agder"
+  ],
+  "SWE": [
+    "Norrbotten",
+    "Dalarna",
+    "V\u00e4rmland",
+    "Orebro",
+    "V\u00e4stra G\u00f6taland",
+    "Kalmar",
+    "Sk\u00e5ne"
+  ],
+  "FIN": [
+    "Lapland",
+    "Northern Savonia",
+    "North Karelia",
+    "Central Finland",
+    "Pirkanmaa",
+    "South Karelia",
+    "Finland Proper"
+  ],
+  "VNM": [
+    "\u0110i\u1ec7n Bi\u00ean",
+    "Son La",
+    "Ngh\u1ec7 An",
+    "Qu\u00e0ng Nam",
+    "Gia Lai",
+    "B\u00ecnh Thu\u1eadn",
+    "Ki\u00ean Giang"
+  ],
+  "KHM": [
+    "Preah Vih\u00e9ar",
+    "Siemr\u00e9ab",
+    "M\u00f4nd\u00f3l Kiri",
+    "Pouthisat",
+    "Ka\u00f4h Kong",
+    "Prey V\u00eang",
+    "K\u00e2mp\u00f4t"
+  ],
+  "LUX": [
+    "Diekirch",
+    "Diekirch",
+    "Diekirch",
+    "Grevenmacher",
+    "Grevenmacher",
+    "Luxembourg",
+    "Luxembourg"
+  ],
+  "BEL": [
+    "East Flanders",
+    "West Flanders",
+    "Limburg",
+    "Brussels",
+    "Liege",
+    "Hainaut",
+    "Luxembourg"
+  ],
+  "GEO": [
+    "Abkhazia",
+    "Racha-Lechkhumi-Kvemo Svaneti",
+    "Mtskheta-Mtianeti",
+    "Shida Kartli",
+    "Kakheti",
+    "Ajaria",
+    "Samtskhe-Javakheti"
+  ],
+  "MKD": [
+    "Kriva Palanka",
+    "Ko\u010dani",
+    "Sveti Nikole",
+    "Brod",
+    "\u010ca\u0161ka",
+    "Kavadartsi",
+    "Prilep"
+  ],
+  "ALB": [
+    "Shkod\u00ebr",
+    "Lezh\u00eb",
+    "Dib\u00ebr",
+    "Elbasan",
+    "Fier",
+    "Kor\u00e7\u00eb",
+    "Gjirokast\u00ebr"
+  ],
+  "AZE": [
+    "Quba",
+    "\u0130smay\u0131ll\u0131",
+    "Goranboy",
+    "K\u0259lb\u0259c\u0259r",
+    "\u0130mi\u015fli",
+    "Salyan",
+    "C\u0259lilabad"
+  ],
+  "KOS": [
+    "Leposavi\u0107",
+    "Podujevo",
+    "Pe\u0107",
+    "Kosovska Kamenica",
+    "Gnjilane",
+    "\u0110akovica",
+    "Prizren"
+  ],
+  "LAO": [
+    "Ph\u00f4ngsali",
+    "Houaphan",
+    "Louangphrabang",
+    "Vientiane",
+    "Khammouan",
+    "Savannakh\u00e9t",
+    "Champasak"
+  ],
+  "KGZ": [
+    "Bishkek",
+    "Chuy",
+    "Talas",
+    "Ysyk-K\u00f6l",
+    "Naryn",
+    "Osh",
+    "Batken"
+  ],
+  "ARM": [
+    "Lori",
+    "Shirak",
+    "Aragatsotn",
+    "Gegharkunik",
+    "Armavir",
+    "Ararat",
+    "Syunik"
+  ],
+  "DNK": [
+    "Nordjylland",
+    "Midtjylland",
+    "Midtjylland",
+    "Hovedstaden",
+    "Syddanmark",
+    "Sja\u00e6lland",
+    "Sja\u00e6lland"
+  ],
+  "LBY": [
+    "An Nuqat al Khams",
+    "Al Jabal al Akhdar",
+    "Al Qubbah",
+    "Mizdah",
+    "Ajdabiya",
+    "Al Jufrah",
+    "Al Kufrah"
+  ],
+  "TUN": [
+    "Bizerte",
+    "B\u00e9ja",
+    "Le Kef",
+    "Kairouan",
+    "Kass\u00e9rine",
+    "Gafsa",
+    "Tataouine"
+  ],
+  "ROU": [
+    "Suceava",
+    "Bihor",
+    "Arad",
+    "Timis",
+    "Caras-Severin",
+    "Gorj",
+    "Constanta"
+  ],
+  "HUN": [
+    "Borsod-Aba\u00faj-Zempl\u00e9n",
+    "Gyor-Moson-Sopron",
+    "Pest",
+    "J\u00e1sz-Nagykun-Szolnok",
+    "B\u00e9k\u00e9s",
+    "B\u00e1cs-Kiskun",
+    "Baranya"
+  ],
+  "SVK": [
+    "\u017dilinsk\u00fd",
+    "Pre\u0161ov",
+    "Trenciansky",
+    "Banskobystrick\u00fd",
+    "Trnavsk\u00fd",
+    "Bratislavsk\u00fd",
+    "Nitriansky"
+  ],
+  "IRL": [
+    "Donegal",
+    "Mayo",
+    "Galway",
+    "Offaly",
+    "Clare",
+    "Limerick",
+    "Cork"
+  ],
+  "GRC": [
+    "Kentriki Makedonia",
+    "Dytiki Makedonia",
+    "Thessalia",
+    "Stere\u00e1 Ell\u00e1da",
+    "Dytiki Ellada",
+    "Peloponnisos",
+    "Kriti"
+  ],
+  "ZMB": [
+    "Northern",
+    "Muchinga",
+    "North-Western",
+    "Eastern",
+    "Central",
+    "Western",
+    "Southern"
+  ],
+  "SLE": [
+    "Northern",
+    "Western",
+    "Western",
+    "Eastern",
+    "Eastern",
+    "Southern",
+    "Southern"
+  ],
+  "GIN": [
+    "Siguiri",
+    "Dinguiraye",
+    "Mandiana",
+    "Kouroussa",
+    "Kankan",
+    "Beyla",
+    "Macenta"
+  ],
+  "LBR": [
+    "Gbapolu",
+    "Bong",
+    "Nimba",
+    "Grand Bassa",
+    "Grand Gedeh",
+    "Sinoe",
+    "Grand Kru"
+  ],
+  "CAF": [
+    "Bamingui-Bangoran",
+    "Haute-Kotto",
+    "Haut-Mbomou",
+    "Ouaka",
+    "Mbomou",
+    "Mamb\u00e9r\u00e9-Kad\u00e9\u00ef",
+    "Lobaye"
+  ],
+  "SDN": [
+    "Northern",
+    "North Darfur",
+    "Gezira",
+    "North Kordufan",
+    "White Nile",
+    "South Kordufan",
+    "Southern Darfur"
+  ],
+  "DJI": [
+    "Obock",
+    "Tadjourah",
+    "Djibouti",
+    "Arta",
+    "Arta",
+    "Dikhil",
+    "Ali Sabieh"
+  ],
+  "ERI": [
+    "Semenawi Keyih Bahri",
+    "Debub",
+    "Anseba",
+    "Gash Barka",
+    "Gash Barka",
+    "Maekel",
+    "Debubawi Keyih Bahri"
+  ],
+  "AUT": [
+    "Nieder\u00f6sterreich",
+    "Ober\u00f6sterreich",
+    "Burgenland",
+    "Salzburg",
+    "Steiermark",
+    "Tirol",
+    "K\u00e4rnten"
+  ],
+  "IRQ": [
+    "Ninawa",
+    "As-Sulaymaniyah",
+    "Sala ad-Din",
+    "Al-Anbar",
+    "Maysan",
+    "Dhi-Qar",
+    "Al-Muthannia"
+  ],
+  "CHE": [
+    "Thurgau",
+    "Z\u00fcrich",
+    "Sankt Gallen",
+    "Lucerne",
+    "Bern",
+    "Graub\u00fcnden",
+    "Valais"
+  ],
+  "NLD": [
+    "Friesland",
+    "Noord-Holland",
+    "Overijssel",
+    "Gelderland",
+    "Noord-Brabant",
+    "Limburg",
+    "Bonaire"
+  ],
+  "LIE": [
+    "Ruggell",
+    "Mauren",
+    "Eschen",
+    "Planken",
+    "Schaan",
+    "Triesenberg",
+    "Triesen"
+  ],
+  "CIV": [
+    "Savanes",
+    "Worodougou",
+    "Vall\u00e9e du Bandama",
+    "Haut-Sassandra",
+    "Cavally",
+    "Sud-Bandama",
+    "Bas-Sassandra"
+  ],
+  "SRB": [
+    "Srednje-Banatski",
+    "Ju\u017eno-Backi",
+    "Branicevski",
+    "Borski",
+    "Zlatiborski",
+    "Ra\u0161ki",
+    "Pcinjski"
+  ],
+  "MLI": [
+    "Timbuktu",
+    "Gao",
+    "Mopti",
+    "Kayes",
+    "S\u00e9gou",
+    "Koulikoro",
+    "Sikasso"
+  ],
+  "SEN": [
+    "Louga",
+    "Matam",
+    "Diourbel",
+    "Kaffrine",
+    "Tambacounda",
+    "Kolda",
+    "K\u00e9dougou"
+  ],
+  "BEN": [
+    "Alibori",
+    "Borgou",
+    "Collines",
+    "Zou",
+    "Kouffo",
+    "Atlantique",
+    "Mono"
+  ],
+  "AGO": [
+    "U\u00edge",
+    "Lunda Norte",
+    "Malanje",
+    "Lunda Sul",
+    "Moxico",
+    "Hu\u00edla",
+    "Cuando Cubango"
+  ],
+  "HRV": [
+    "Krapinsko-Zagorska",
+    "Zagrebacka",
+    "Osjecko-Baranjska",
+    "Sisacko-Moslavacka",
+    "Primorsko-Goranska",
+    "Zadarska",
+    "Splitsko-Dalmatinska"
+  ],
+  "SVN": [
+    "Moravske Toplice",
+    "Slovenj Gradec",
+    "Bovec",
+    "Bohinj",
+    "Tolmin",
+    "Kr\u0161ko",
+    "Kocevje"
+  ],
+  "QAT": [
+    "Madinat ach Shamal",
+    "Al Khawr",
+    "Al Daayen",
+    "Umm Salal",
+    "Ad Dawhah",
+    "Ar Rayy\u0101n",
+    "Al Wakrah"
+  ],
+  "BWA": [
+    "North-West",
+    "North-East",
+    "Central",
+    "Ghanzi",
+    "Jwaneng",
+    "Kgalagadi",
+    "South-East"
+  ],
+  "ZWE": [
+    "Mashonaland Central",
+    "Mashonaland West",
+    "Mashonaland East",
+    "Matabeleland North",
+    "Manicaland",
+    "Masvingo",
+    "Matabeleland South"
+  ],
+  "BGR": [
+    "Vidin",
+    "Dobrich",
+    "Veliko Tarnovo",
+    "Sofia",
+    "Burgas",
+    "Plovdiv",
+    "Blagoevgrad"
+  ],
+  "THA": [
+    "Chiang Mai",
+    "Tak",
+    "Ubon Ratchathani",
+    "Nakhon Ratchasima",
+    "Sa Kaeo",
+    "Surat Thani",
+    "Nakhon Si Thammarat"
+  ],
+  "SMR": [
+    "Serravalle",
+    "Domagnano",
+    "Borgo Maggiore",
+    "Faetano",
+    "San Marino",
+    "Fiorentino",
+    "Chiesanuova"
+  ],
+  "HTI": [
+    "Nord-Ouest",
+    "Nord",
+    "L'Artibonite",
+    "Ouest",
+    "Grand'Anse",
+    "Sud",
+    "Sud-Est"
+  ],
+  "DOM": [
+    "Monte Cristi",
+    "Santiago",
+    "La Vega",
+    "San Juan",
+    "La Altagracia",
+    "Bahoruco",
+    "Independencia"
+  ],
+  "TCD": [
+    "Borkou",
+    "Kanem",
+    "Batha",
+    "Gu\u00e9ra",
+    "Salamat",
+    "Moyen-Chari",
+    "Logone Oriental"
+  ],
+  "KWT": [
+    "Al Jahrah",
+    "Al Asimah",
+    "Hawalli",
+    "Al Farwaniyah",
+    "Al Farwaniyah",
+    "Mubarak Al-Kabeer",
+    "Al Ahmadi"
+  ],
+  "SLV": [
+    "Santa Ana",
+    "Ahuachap\u00e1n",
+    "San Salvador",
+    "La Libertad",
+    "Sonsonate",
+    "San Miguel",
+    "Usulut\u00e1n"
+  ],
+  "GTM": [
+    "Pet\u00e9n",
+    "Izabal",
+    "San Marcos",
+    "El Progreso",
+    "Chiquimula",
+    "Suchitep\u00e9quez",
+    "Escuintla"
+  ],
+  "TLS": [
+    "Laut\u00e9m",
+    "Baucau",
+    "Manatuto",
+    "Viqueque",
+    "Bobonaro",
+    "Manufahi",
+    "Cova Lima"
+  ],
+  "BRN": [
+    "Brunei and Muara",
+    "Tutong",
+    "Tutong",
+    "Temburong",
+    "Temburong",
+    "Belait",
+    "Belait"
+  ],
+  "MCO": [
+    "Monaco",
+    "Monaco",
+    "Monaco",
+    "Monaco",
+    "Monaco",
+    "Monaco",
+    "Monaco"
+  ],
+  "DZA": [
+    "Skikda",
+    "Bouira",
+    "M\u00e9d\u00e9a",
+    "Batna",
+    "Tiaret",
+    "El Bayadh",
+    "Tamanghasset"
+  ],
+  "MOZ": [
+    "Niassa",
+    "Nampula",
+    "Zambezia",
+    "Manica",
+    "Inhambane",
+    "Gaza",
+    "Maputo"
+  ],
+  "SWZ": [
+    "Hhohho",
+    "Manzini",
+    "Manzini",
+    "Lubombo",
+    "Lubombo",
+    "Shiselweni",
+    "Shiselweni"
+  ],
+  "BDI": [
+    "Kirundo",
+    "Cibitoke",
+    "Karuzi",
+    "Ruyigi",
+    "Mwaro",
+    "Gitega",
+    "Bururi"
+  ],
+  "RWA": [
+    "Northern",
+    "Eastern",
+    "Eastern",
+    "Kigali City",
+    "Western",
+    "Southern",
+    "Southern"
+  ],
+  "MMR": [
+    "Sagaing",
+    "Shan",
+    "Magway",
+    "Rakhine",
+    "Bago",
+    "Ayeyarwady",
+    "Tanintharyi"
+  ],
+  "BGD": [
+    "Rangpur",
+    "Sylhet",
+    "Rajshahi",
+    "Dhaka",
+    "Khulna",
+    "Chittagong",
+    "Barisal"
+  ],
+  "AND": [
+    "Ordino",
+    "Canillo",
+    "La Massana",
+    "Encamp",
+    "Andorra la Vella",
+    "Escaldes-Engordany",
+    "Sant Juli\u00e0 de L\u00f2ria"
+  ],
+  "AFG": [
+    "Badakhshan",
+    "Faryab",
+    "Badghis",
+    "Bamyan",
+    "Hirat",
+    "Farah",
+    "Hilmand"
+  ],
+  "MNE": [
+    "Pljevlja",
+    "Bijelo Polje",
+    "Nik\u0161ic",
+    "Kola\u0161in",
+    "Cetinje",
+    "Podgorica",
+    "Bar"
+  ],
+  "BIH": [
+    "Doboj",
+    "Banja Luka",
+    "Zenica-Doboj",
+    "Central Bosnia",
+    "West Bosnia",
+    "Fo\u010da",
+    "Herzegovina-Neretva"
+  ],
+  "UGA": [
+    "Kaabong",
+    "Napak",
+    "Hoima",
+    "Kibale",
+    "Mubende",
+    "Namayingo",
+    "Kalangala"
+  ],
+  "USG": [
+    "Guantanamo Bay USNB",
+    "Guantanamo Bay USNB",
+    "Guantanamo Bay USNB",
+    "Guantanamo Bay USNB",
+    "Guantanamo Bay USNB",
+    "Guantanamo Bay USNB",
+    "Guantanamo Bay USNB"
+  ],
+  "CUB": [
+    "Mayabeque",
+    "Matanzas",
+    "Pinar del R\u00edo",
+    "Ciego de \u00c1vila",
+    "Camag\u00fcey",
+    "Holgu\u00edn",
+    "Santiago de Cuba"
+  ],
+  "HND": [
+    "Col\u00f3n",
+    "Yoro",
+    "Gracias a Dios",
+    "Olancho",
+    "Lempira",
+    "Francisco Moraz\u00e1n",
+    "El Para\u00edso"
+  ],
+  "ECU": [
+    "Esmeraldas",
+    "Sucumbios",
+    "Orellana",
+    "Los Rios",
+    "Pastaza",
+    "Morona Santiago",
+    "Loja"
+  ],
+  "COL": [
+    "Magdalena",
+    "Antioquia",
+    "Choc\u00f3",
+    "Vichada",
+    "Tolima",
+    "Meta",
+    "Amazonas"
+  ],
+  "PRY": [
+    "Boquer\u00f3n",
+    "Presidente Hayes",
+    "San Pedro",
+    "Cordillera",
+    "Alto Paran\u00e1",
+    "Caazap\u00e1",
+    "Itap\u00faa"
+  ],
+  "PRT": [
+    "Vila Real",
+    "Bragan\u00e7a",
+    "Guarda",
+    "Castelo Branco",
+    "Santar\u00e9m",
+    "\u00c9vora",
+    "Beja"
+  ],
+  "MDA": [
+    "Edine\u0163",
+    "R\u00ee\u015fcani",
+    "F\u0103le\u015fti",
+    "Ungheni",
+    "Nisporeni",
+    "H\u00eencesti",
+    "Comrat"
+  ],
+  "TKM": [
+    "Tashauz",
+    "Balkan",
+    "Balkan",
+    "Chardzhou",
+    "Ahal",
+    "Mary",
+    "Mary"
+  ],
+  "JOR": [
+    "Mafraq",
+    "Ajlun",
+    "Balqa",
+    "Amman",
+    "Karak",
+    "Tafilah",
+    "Ma`an"
+  ],
+  "NPL": [
+    "Karnali",
+    "Seti",
+    "Gandaki",
+    "Rapti",
+    "Lumbini",
+    "Sagarmatha",
+    "Bhojpur"
+  ],
+  "LSO": [
+    "Butha-Buthe",
+    "Leribe",
+    "Mokhotlong",
+    "Thaba-Tseka",
+    "Mafeteng",
+    "Mohale's Hoek",
+    "Quthing"
+  ],
+  "CMR": [
+    "Extr\u00eame-Nord",
+    "Nord",
+    "Nord-Ouest",
+    "Sud-Ouest",
+    "Centre",
+    "Est",
+    "Sud"
+  ],
+  "GAB": [
+    "Wouleu-Ntem",
+    "Ogoou\u00e9-Ivindo",
+    "Moyen-Ogoou\u00e9",
+    "Ogoou\u00e9-Lolo",
+    "Haut-Ogoou\u00e9",
+    "Ngouni\u00e9",
+    "Nyanga"
+  ],
+  "NER": [
+    "Agadez",
+    "Diffa",
+    "Tahoua",
+    "Zinder",
+    "Maradi",
+    "Niamey",
+    "Dosso"
+  ],
+  "BFA": [
+    "Soum",
+    "Sanmatenga",
+    "Komondjari",
+    "Gourma",
+    "Tapoa",
+    "Houet",
+    "Komo\u00e9"
+  ],
+  "TGO": [
+    "Savanes",
+    "Kara",
+    "Kara",
+    "Centre",
+    "Plateaux",
+    "Maritime",
+    "Maritime"
+  ],
+  "GHA": [
+    "Upper East",
+    "Northern",
+    "Brong Ahafo",
+    "Ashanti",
+    "Eastern",
+    "Western",
+    "Central"
+  ],
+  "GNB": [
+    "Oio",
+    "Bafat\u00e1",
+    "Gab\u00fa",
+    "Bissau",
+    "Biombo",
+    "Quinara",
+    "Tombali"
+  ],
+  "GIB": [
+    "Gibraltar",
+    "Gibraltar",
+    "Gibraltar",
+    "Gibraltar",
+    "Gibraltar",
+    "Gibraltar",
+    "Gibraltar"
+  ],
+  "BLZ": [
+    "Corozal",
+    "Orange Walk",
+    "Belize",
+    "Cayo",
+    "Cayo",
+    "Stann Creek",
+    "Toledo"
+  ],
+  "PAN": [
+    "Col\u00f3n",
+    "Kuna Yala",
+    "Panama",
+    "Chiriqu\u00ed",
+    "Dari\u00e9n",
+    "Veraguas",
+    "Los Santos"
+  ],
+  "VEN": [
+    "Falc\u00f3n",
+    "Sucre",
+    "Lara",
+    "Zulia",
+    "Gu\u00e1rico",
+    "Barinas",
+    "Bol\u00edvar"
+  ],
+  "PNG": [
+    "Sandaun",
+    "East Sepik",
+    "West New Britain",
+    "Southern Highlands",
+    "Morobe",
+    "Western",
+    "Central"
+  ],
+  "YEM": [
+    "Hadramawt",
+    "Al Jawf",
+    "Ma'rib",
+    "Shabwah",
+    "Al Bayda'",
+    "Abyan",
+    "Lahij"
+  ],
+  "MRT": [
+    "Tiris Zemmour",
+    "Inchiri",
+    "Hodh ech Chargui",
+    "Nouakchott",
+    "Trarza",
+    "Hodh el Gharbi",
+    "Gorgol"
+  ],
+  "GNQ": [
+    "Bioko Norte",
+    "Bioko Sur",
+    "Ki\u00e9-Ntem",
+    "Litoral",
+    "Wele-Nz\u00e1s",
+    "Centro Sur",
+    "Annob\u00f3n"
+  ],
+  "GMB": [
+    "Central River",
+    "North Bank",
+    "Banjul",
+    "Upper River",
+    "Upper River",
+    "Lower River",
+    "West Coast"
+  ],
+  "HKG": [
+    "Yuen Long",
+    "Tuen Mun",
+    "Sai Kung",
+    "Wong Tai Sin",
+    "Kowloon City",
+    "Eastern",
+    "Islands"
+  ],
+  "VAT": [
+    "Vatican",
+    "Vatican",
+    "Vatican",
+    "Vatican",
+    "Vatican",
+    "Vatican",
+    "Vatican"
+  ],
+  "CYN": [
+    "Northern Cyprus",
+    "Northern Cyprus",
+    "Northern Cyprus",
+    "Northern Cyprus",
+    "Northern Cyprus",
+    "Northern Cyprus",
+    "Northern Cyprus"
+  ],
+  "KAS": [
+    "Kashmir",
+    "Kashmir",
+    "Kashmir",
+    "Kashmir",
+    "Kashmir",
+    "Kashmir",
+    "Kashmir"
+  ],
+  "KAB": [
+    "Baykonur lease in Qyzylorda",
+    "Baykonur lease in Qyzylorda",
+    "Baykonur lease in Qyzylorda",
+    "Baykonur lease in Qyzylorda",
+    "Baykonur lease in Qyzylorda",
+    "Baykonur lease in Qyzylorda",
+    "Baykonur lease in Qyzylorda"
+  ],
+  "WSB": [
+    "Akrotiri",
+    "Akrotiri",
+    "Akrotiri",
+    "Akrotiri",
+    "Akrotiri",
+    "Akrotiri",
+    "Akrotiri"
+  ],
+  "ATA": [
+    "Region",
+    "Region",
+    "Region",
+    "Antarctica",
+    "Antarctica",
+    "Antarctica",
+    "Antarctica"
+  ],
+  "NZL": [
+    "Kermadec Islands",
+    "Waikato",
+    "Hawke's Bay",
+    "Manawatu-Wanganui",
+    "Canterbury",
+    "Otago",
+    "Auckland Islands"
+  ],
+  "NCL": [
+    "Nord",
+    "Nord",
+    "Nord",
+    "\u00celes Loyaut\u00e9",
+    "\u00celes Loyaut\u00e9",
+    "Sud",
+    "Sud"
+  ],
+  "MDG": [
+    "Sofia",
+    "Betsiboka",
+    "Melaky",
+    "Atsinanana",
+    "Menabe",
+    "Atsimo-Andrefana",
+    "Anosy"
+  ],
+  "PHL": [
+    "Isabela",
+    "Nueva Ecija",
+    "Quezon",
+    "Mindoro Occidental",
+    "Palawan",
+    "Bukidnon",
+    "Cotabato"
+  ],
+  "LKA": [
+    "Mulativ",
+    "Anur\u0101dhapura",
+    "P\u014f\u1e37\u014fnnaruva",
+    "Kuru\u1e47\u00e6gala",
+    "Badulla",
+    "M\u014f\u1e47ar\u0101gala",
+    "Hambant\u014f\u1e6da"
+  ],
+  "CUW": [
+    "Cura\u00e7ao",
+    "Cura\u00e7ao",
+    "Cura\u00e7ao",
+    "Cura\u00e7ao",
+    "Cura\u00e7ao",
+    "Cura\u00e7ao",
+    "Cura\u00e7ao"
+  ],
+  "ABW": [
+    "Aruba",
+    "Aruba",
+    "Aruba",
+    "Aruba",
+    "Aruba",
+    "Aruba",
+    "Aruba"
+  ],
+  "BHS": [
+    "West Grand Bahama",
+    "Central Abaco",
+    "North Eleuthera",
+    "North Andros",
+    "Mangrove Cay",
+    "South Andros",
+    "Inagua"
+  ],
+  "TCA": [
+    "North Caicos",
+    "Middle Caicos",
+    "Providenciales and West Caicos",
+    "South Caicos and East Caicos",
+    "South Caicos and East Caicos",
+    "Grand Turk",
+    "Salt Cay"
+  ],
+  "TWN": [
+    "New Taipei City",
+    "Hsinchu",
+    "Yilan",
+    "Nantou",
+    "Hualien",
+    "Tainan City",
+    "Taitung"
+  ],
+  "SPM": [
+    "Miquelon-Langlade",
+    "Miquelon-Langlade",
+    "Miquelon-Langlade",
+    "Saint-Pierre",
+    "Saint-Pierre",
+    "Saint-Pierre",
+    "Saint-Pierre"
+  ],
+  "ISL": [
+    "Vestfir\u00f0ir",
+    "Nor\u00f0urland eystra",
+    "Austurland",
+    "Vesturland",
+    "H\u00f6fu\u00f0borgarsv\u00e6\u00f0i",
+    "Su\u00f0urland",
+    "Su\u00f0urnes"
+  ],
+  "GRL": [
+    "Nationalparken",
+    "Pituffik",
+    "Qaasuitsup Kommunia",
+    "Kommuneqarfik Sermersooq",
+    "Kommuneqarfik Sermersooq",
+    "Qeqqata Kommunia",
+    "Kommune Kujalleq"
+  ],
+  "PCN": [
+    "Pitcairn Islands",
+    "Pitcairn Islands",
+    "Pitcairn Islands",
+    "Pitcairn Islands",
+    "Pitcairn Islands",
+    "Pitcairn Islands",
+    "Pitcairn Islands"
+  ],
+  "PYF": [
+    "Marquesas Islands",
+    "Leeward Islands",
+    "Leeward Islands",
+    "Tuamotu-Gambier",
+    "Windward Islands",
+    "Austral Islands",
+    "Austral Islands"
+  ],
+  "ATF": [
+    "Iles Eparses de l'ocean Indien",
+    "Iles Saint-Paul et Nouvelle-Amsterdam",
+    "Iles Saint-Paul et Nouvelle-Amsterdam",
+    "Archipel des Crozet",
+    "Archipel des Crozet",
+    "Archipel des Kerguelen",
+    "Archipel des Kerguelen"
+  ],
+  "SYC": [
+    "La Digue and Inner Islands",
+    "Anse Etoile",
+    "Bel Ombre",
+    "Port Glaud",
+    "Grand'Anse",
+    "Anse Boileau",
+    "Outer Islands"
+  ],
+  "KIR": [
+    "Kiribati",
+    "Kiribati",
+    "Kiribati",
+    "Region",
+    "Region",
+    "Region",
+    "Region"
+  ],
+  "MHL": [
+    "Ratak Chain",
+    "Ratak Chain",
+    "Ratak Chain",
+    "Railik Chain",
+    "Railik Chain",
+    "Railik Chain",
+    "Railik Chain"
+  ],
+  "TTO": [
+    "Eastern Tobago",
+    "Tunapuna/Piarco",
+    "Sangre Grande",
+    "Chaguanas",
+    "Rio Claro-Mayaro",
+    "Princes Town",
+    "Siparia"
+  ],
+  "GRD": [
+    "Carriacou and Petite Martinique",
+    "Saint Patrick",
+    "Saint Mark",
+    "Saint John",
+    "Saint Andrew",
+    "Saint David",
+    "Saint George"
+  ],
+  "VCT": [
+    "Saint David",
+    "Charlotte",
+    "Saint Patrick",
+    "Saint Andrew",
+    "Saint Andrew",
+    "Saint George",
+    "Grenadines"
+  ],
+  "BRB": [
+    "Saint Lucy",
+    "Saint Andrew",
+    "Saint James",
+    "Saint Thomas",
+    "Saint George",
+    "Saint Philip",
+    "Christ Church"
+  ],
+  "LCA": [
+    "Dauphin",
+    "Castries",
+    "Anse-la-Raye",
+    "Praslin",
+    "Soufri\u00e8re",
+    "Choiseul",
+    "Vieux Fort"
+  ],
+  "DMA": [
+    "Saint John",
+    "Saint Andrew",
+    "Saint Joseph",
+    "Saint David",
+    "Saint George",
+    "Saint Patrick",
+    "Saint Mark"
+  ],
+  "UMI": [
+    "Midway Islands",
+    "Wake Atoll",
+    "Navassa Island",
+    "Palmyra Atoll",
+    "Howland Island",
+    "Baker Island",
+    "Jarvis Island"
+  ],
+  "MSR": [
+    "Saint Peter",
+    "Saint Peter",
+    "Saint Peter",
+    "Saint Georges",
+    "Saint Georges",
+    "Saint Anthony",
+    "Saint Anthony"
+  ],
+  "ATG": [
+    "Barbuda",
+    "Saint George",
+    "Saint John",
+    "Saint Philip",
+    "Saint Mary",
+    "Saint Paul",
+    "Redonda"
+  ],
+  "KNA": [
+    "Saint John Capesterre",
+    "Christ Church Nichola Town",
+    "Saint Thomas Middle Island",
+    "Saint Peter Basseterre",
+    "Saint George Basseterre",
+    "Saint Thomas Lowland",
+    "Saint John Figtree"
+  ],
+  "VIR": [
+    "Saint Thomas",
+    "Saint Thomas",
+    "Saint Thomas",
+    "Saint John",
+    "Saint John",
+    "Saint Croix",
+    "Saint Croix"
+  ],
+  "BLM": [
+    "Saint Barth\u00e9lemy",
+    "Saint Barth\u00e9lemy",
+    "Saint Barth\u00e9lemy",
+    "Saint Barth\u00e9lemy",
+    "Saint Barth\u00e9lemy",
+    "Saint Barth\u00e9lemy",
+    "Saint Barth\u00e9lemy"
+  ],
+  "PRI": [
+    "Puerto Rico",
+    "Puerto Rico",
+    "Puerto Rico",
+    "Puerto Rico",
+    "Puerto Rico",
+    "Puerto Rico",
+    "Puerto Rico"
+  ],
+  "AIA": [
+    "Region",
+    "East End",
+    "Sandy Hill",
+    "The Valley",
+    "The Farrington",
+    "South Hill",
+    "West End"
+  ],
+  "VGB": [
+    "British Virgin Islands",
+    "British Virgin Islands",
+    "British Virgin Islands",
+    "British Virgin Islands",
+    "British Virgin Islands",
+    "British Virgin Islands",
+    "British Virgin Islands"
+  ],
+  "JAM": [
+    "Saint James",
+    "Saint Ann",
+    "Westmoreland",
+    "Saint Elizabeth",
+    "Saint Catherine",
+    "Clarendon",
+    "Saint Thomas"
+  ],
+  "CYM": [
+    "Cayman Islands",
+    "Cayman Islands",
+    "Cayman Islands",
+    "Cayman Islands",
+    "Cayman Islands",
+    "Cayman Islands",
+    "Cayman Islands"
+  ],
+  "BMU": [
+    "Saint George's",
+    "Hamilton",
+    "Devonshire",
+    "Pembroke",
+    "Sandys",
+    "Paget",
+    "Warwick"
+  ],
+  "HMD": [
+    "Heard Island and McDonald Islands",
+    "Heard Island and McDonald Islands",
+    "Heard Island and McDonald Islands",
+    "Heard Island and McDonald Islands",
+    "Heard Island and McDonald Islands",
+    "Heard Island and McDonald Islands",
+    "Heard Island and McDonald Islands"
+  ],
+  "SHN": [
+    "Ascension",
+    "Ascension",
+    "Ascension",
+    "Saint Helena",
+    "Saint Helena",
+    "Tristan da Cunha",
+    "Tristan da Cunha"
+  ],
+  "MUS": [
+    "Rodrigues",
+    "Pamplemousses",
+    "Flacq",
+    "Moka",
+    "Vacoas-Phoenix",
+    "Rivi\u00e8re Noire",
+    "Savanne"
+  ],
+  "COM": [
+    "Andjaz\u00eedja",
+    "Andjaz\u00eedja",
+    "Andjaz\u00eedja",
+    "Andjou\u00e2n",
+    "Andjou\u00e2n",
+    "Mo\u00fbh\u00eel\u00ee",
+    "Mo\u00fbh\u00eel\u00ee"
+  ],
+  "STP": [
+    "Pr\u00edncipe",
+    "Pr\u00edncipe",
+    "Pr\u00edncipe",
+    "S\u00e3o Tom\u00e9",
+    "S\u00e3o Tom\u00e9",
+    "S\u00e3o Tom\u00e9",
+    "S\u00e3o Tom\u00e9"
+  ],
+  "CPV": [
+    "Porto Novo",
+    "S\u00e3o Vicente",
+    "Boa Vista",
+    "Santa Catarina",
+    "S\u00e3o Domingos",
+    "Ribeira Grande de Santiago",
+    "S\u00e3o Filipe"
+  ],
+  "MLT": [
+    "Xag\u0127ra",
+    "Mellie\u0127a",
+    "M\u0121arr",
+    "Attard",
+    "Rabat",
+    "\u017bebbu\u0121",
+    "Si\u0121\u0121iewi"
+  ],
+  "JEY": [
+    "Jersey",
+    "Jersey",
+    "Jersey",
+    "Jersey",
+    "Jersey",
+    "Jersey",
+    "Jersey"
+  ],
+  "GGY": [
+    "Sark",
+    "Sark",
+    "Sark",
+    "Sark",
+    "Sark",
+    "Sark",
+    "Sark"
+  ],
+  "IMN": [
+    "Isle of Man",
+    "Isle of Man",
+    "Isle of Man",
+    "Isle of Man",
+    "Isle of Man",
+    "Isle of Man",
+    "Isle of Man"
+  ],
+  "ALD": [
+    "Kumlinge",
+    "V\u00e5rd\u00f6",
+    "Jomala",
+    "Sottunga",
+    "Lumparland",
+    "Lemland",
+    "F\u00f6gl\u00f6"
+  ],
+  "FRO": [
+    "Eysturoyar",
+    "Eysturoyar",
+    "Eysturoyar",
+    "Eysturoyar",
+    "Eysturoyar",
+    "Eysturoyar",
+    "Eysturoyar"
+  ],
+  "IOA": [
+    "Christmas Island",
+    "Christmas Island",
+    "Christmas Island",
+    "Cocos (Keeling) Islands",
+    "Cocos (Keeling) Islands",
+    "Cocos (Keeling) Islands",
+    "Cocos (Keeling) Islands"
+  ],
+  "IOT": [
+    "British Indian Ocean Territory",
+    "British Indian Ocean Territory",
+    "British Indian Ocean Territory",
+    "British Indian Ocean Territory",
+    "British Indian Ocean Territory",
+    "British Indian Ocean Territory",
+    "British Indian Ocean Territory"
+  ],
+  "SGP": [
+    "North West",
+    "North East",
+    "North East",
+    "South East",
+    "South West",
+    "Central Singapore",
+    "Central Singapore"
+  ],
+  "NFK": [
+    "Norfolk Island",
+    "Norfolk Island",
+    "Norfolk Island",
+    "Norfolk Island",
+    "Norfolk Island",
+    "Norfolk Island",
+    "Norfolk Island"
+  ],
+  "COK": [
+    "Penrhyn",
+    "Manihiki",
+    "Palmerston",
+    "Aitutaki",
+    "Atiu",
+    "Mauke",
+    "Rarotonga"
+  ],
+  "FJI": [
+    "Rotuma",
+    "Northern",
+    "Northern",
+    "Western",
+    "Central",
+    "Eastern",
+    "Eastern"
+  ],
+  "TON": [
+    "Niuas",
+    "Vava'u",
+    "Vava'u",
+    "Ha'apai",
+    "Tongatapu",
+    "Eua",
+    "Eua"
+  ],
+  "WLF": [
+    "`Uvea",
+    "`Uvea",
+    "`Uvea",
+    "Sigave",
+    "Sigave",
+    "Alo",
+    "Alo"
+  ],
+  "WSM": [
+    "Gaga'ifomauga",
+    "Gaga'emauga",
+    "Fa'asaleleaga",
+    "Palauli",
+    "A'ana",
+    "Tuamasaga",
+    "Atua"
+  ],
+  "SLB": [
+    "Choiseul",
+    "Western",
+    "Malaita",
+    "Central",
+    "Guadalcanal",
+    "Makira",
+    "Rennell and Bellona"
+  ],
+  "TUV": [
+    "Tuvalu",
+    "Tuvalu",
+    "Tuvalu",
+    "Tuvalu",
+    "Tuvalu",
+    "Tuvalu",
+    "Tuvalu"
+  ],
+  "MDV": [
+    "Haa Dhaalu",
+    "Lhaviyani",
+    "Kaafu",
+    "Mal\u00e9",
+    "Dhaalu",
+    "Laamu",
+    "Addu"
+  ],
+  "NRU": [
+    "Anabar",
+    "Baiti",
+    "Ijuw",
+    "Nibok",
+    "Anibare",
+    "Meneng",
+    "Yaren"
+  ],
+  "FSM": [
+    "Yap",
+    "Chuuk",
+    "Chuuk",
+    "Pohnpei",
+    "Pohnpei",
+    "Kosrae",
+    "Kosrae"
+  ],
+  "SGS": [
+    "South Georgia and the South Sandwich Islands",
+    "South Georgia and the South Sandwich Islands",
+    "South Georgia and the South Sandwich Islands",
+    "South Georgia and the South Sandwich Islands",
+    "South Georgia and the South Sandwich Islands",
+    "South Georgia and the South Sandwich Islands",
+    "South Georgia and the South Sandwich Islands"
+  ],
+  "FLK": [
+    "Falkland Islands",
+    "Falkland Islands",
+    "Falkland Islands",
+    "Falkland Islands",
+    "Falkland Islands",
+    "Falkland Islands",
+    "Falkland Islands"
+  ],
+  "VUT": [
+    "Torba",
+    "Sanma",
+    "Penama",
+    "Malampa",
+    "Malampa",
+    "Shefa",
+    "Tafea"
+  ],
+  "NIU": [
+    "Niue",
+    "Niue",
+    "Niue",
+    "Niue",
+    "Niue",
+    "Niue",
+    "Niue"
+  ],
+  "ASM": [
+    "Swain's Island",
+    "Manu's",
+    "Manu's",
+    "Eastern",
+    "Western",
+    "Rose Atoll",
+    "Rose Atoll"
+  ],
+  "PLW": [
+    "Ngarchelong",
+    "Ngardmau",
+    "Ngeremlengui",
+    "Ngatpang",
+    "Airai",
+    "Koror",
+    "Hatobohei"
+  ],
+  "GUM": [
+    "Guam",
+    "Guam",
+    "Guam",
+    "Guam",
+    "Guam",
+    "Guam",
+    "Guam"
+  ],
+  "MNP": [
+    "Northern Islands",
+    "Saipan",
+    "Saipan",
+    "Tinian",
+    "Tinian",
+    "Rota",
+    "Rota"
+  ],
+  "BHR": [
+    "Al Mu\u1e29arraq",
+    "Al Man\u0101mah",
+    "Al Man\u0101mah",
+    "Al Wus\u0163\u00e1",
+    "Ash Sham\u0101l\u012byah",
+    "Al Jan\u016bb\u012byah",
+    "Al Jan\u016bb\u012byah"
+  ],
+  "CSI": [
+    "Coral Sea Islands",
+    "Coral Sea Islands",
+    "Coral Sea Islands",
+    "Coral Sea Islands",
+    "Coral Sea Islands",
+    "Coral Sea Islands",
+    "Coral Sea Islands"
+  ],
+  "PGA": [
+    "Spratly Islands",
+    "Spratly Islands",
+    "Spratly Islands",
+    "Spratly Islands",
+    "Spratly Islands",
+    "Spratly Islands",
+    "Spratly Islands"
+  ],
+  "CLP": [
+    "Clipperton Island",
+    "Clipperton Island",
+    "Clipperton Island",
+    "Clipperton Island",
+    "Clipperton Island",
+    "Clipperton Island",
+    "Clipperton Island"
+  ],
+  "MAC": [
+    "Macau",
+    "Macau",
+    "Macau",
+    "Macau",
+    "Macau",
+    "Macau",
+    "Macau"
+  ],
+  "ATC": [
+    "Ashmore and Cartier Islands",
+    "Ashmore and Cartier Islands",
+    "Ashmore and Cartier Islands",
+    "Ashmore and Cartier Islands",
+    "Ashmore and Cartier Islands",
+    "Ashmore and Cartier Islands",
+    "Ashmore and Cartier Islands"
+  ]
+}
